@@ -5,7 +5,7 @@ function getFetch() {
 	const choice = document.querySelector('input').value
 	let c = choice.charAt(0).toUpperCase() + choice.slice(1)
 	console.log(c)
-	const url = `http://ddragon.leagueoflegends.com/cdn/12.7.1/data/en_US/champion/${c}.json`
+	const url = `https://ddragon.leagueoflegends.com/cdn/12.7.1/data/en_US/champion/${c}.json`
 	document.getElementById('h1').style.display = 'none'
 
 	fetch(url)
@@ -18,7 +18,7 @@ function getFetch() {
 			document.querySelector('h3').innerText = data.data[c].lore
 			document.querySelector(
 				'img'
-			).src = `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${c}_0.jpg`
+			).src = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${c}_0.jpg`
 		})
 		.catch((err) => {
 			console.log(`error ${err}`)
