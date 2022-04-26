@@ -3,8 +3,8 @@ This project allows the user to pick any league of legends champion and be provi
 
 **Link to project:** https://foleydom.github.io/lolApi/
 
-<img src= "https://imgur.com/yKNV3GH" />
-<img src = "https://imgur.com/qywCfWO" />
+<img src= "https://i.imgur.com/yKNV3GH.png" />
+<img src = "https://i.imgur.com/qywCfWO.png" />
 
 ## How It's Made:
 
