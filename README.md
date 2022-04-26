@@ -20,5 +20,5 @@ You don't have to include this section but interviewers *love* that you can not 
 
 ## Lessons Learned:
 
-I learn how to work API's and properly input data into the DOM with the use of Javascript.
+I learned how to work API's and properly input data into the DOM with the use of Javascript.
 
