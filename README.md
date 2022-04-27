@@ -1,10 +1,11 @@
 # League of Legends Champion Picker
+
 This project allows the user to pick any league of legends champion and be provided with their name, a picture of the selected champion, and a description of that chapion.
 
 **Link to project:** https://foleydom.github.io/lolApi/
 
-<img src= "https://i.imgur.com/yKNV3GH.png" />
-<img src = "https://i.imgur.com/qywCfWO.png" />
+<img alt="image of site" src= "https://i.imgur.com/yKNV3GH.png" />
+<img alt="image of site in use" src = "https://i.imgur.com/qywCfWO.png" />
 
 ## How It's Made:
 
@@ -12,7 +13,7 @@ This project allows the user to pick any league of legends champion and be provi
 
 Using the League of Legends API, I created a fetch function that receives information from the API then manipulates the DOM to display the information received. Using different ids within my HTML I was able to input different text through Javascript.
 
-<!-- 
+<!--
 ## Optimizations
 *(optional)*
 
@@ -21,4 +22,3 @@ You don't have to include this section but interviewers *love* that you can not 
 ## Lessons Learned:
 
 I learned how to work API's and properly input data into the DOM with the use of Javascript.
-
