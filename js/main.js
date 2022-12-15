@@ -2,6 +2,7 @@ document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch() {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 	const choice = document.querySelector('input').value
 	let c = choice.charAt(0).toUpperCase() + choice.slice(1)
 	//console.log(c)
@@ -34,6 +35,15 @@ function getFetch() {
     document.getElementById('none').style.display = 'none'
     document.getElementById('none2').style.display = 'none'
 
+=======
+    const choice = document.querySelector('input').value
+    let c = choice.charAt(0).toUpperCase() + choice.slice(1)
+    //console.log(c)
+    const url = `https://ddragon.leagueoflegends.com/cdn/12.7.1/data/en_US/champion/${c}.json`
+    document.getElementById('none').style.display = 'none'
+    document.getElementById('none2').style.display = 'none'
+
+>>>>>>> Stashed changes
     fetch(url)
         .then((res) => res.json()) // parse response as JSON
         .then((data) => {
@@ -49,5 +59,8 @@ function getFetch() {
         .catch((err) => {
             console.log(`error ${err}`)
         })
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }

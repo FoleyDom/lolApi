@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 * {
 	box-sizing: border-box;
 }
@@ -81,6 +82,18 @@ button {
 .css-input:focus {
 	outline: none;
 }
+=======
+body {
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+section {
+}
+>>>>>>> Stashed changes
 =======
 body {
     display: flex;
